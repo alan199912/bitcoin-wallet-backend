@@ -15,16 +15,16 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: bitcoin_wallet_db
+  database: d5nm24ku20gjaq
   pool: 5
-  username: postgres
-  password: admin
+  username: iyaotfmmacvmuj
+  password: 9b501343a86dd543d68a9a4d250a5736836d84779b33f12651fb0f25bae23ba2
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  #host: localhost
-  #port: 5432
+  host: ec2-34-195-143-54.compute-1.amazonaws.com
+  port: 5432
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
