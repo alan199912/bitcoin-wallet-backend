@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create({
-    name: "Yao",
+    name: "Alan",
     usd: 1000,
     btc: 0.1
 })
